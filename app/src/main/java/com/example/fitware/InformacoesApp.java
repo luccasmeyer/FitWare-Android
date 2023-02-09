@@ -16,7 +16,11 @@ public class InformacoesApp extends Application {
     private Usuario usuarioLogado;
 
     @Override
-    public void OnCreat(){
+    public void onCreate() {
+        super.onCreate();
 
     }
+
+    public  Usuario getUsuarioLogado(){ return  usuarioLogado; }
+    public void setUsuarioLogado(Usuario usuarioLogado) { this.usuarioLogado = usuarioLogado; }
 }

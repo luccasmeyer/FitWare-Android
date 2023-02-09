@@ -7,50 +7,34 @@
 
     <EditText
         android:id="@+id/etLoginSenha"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="392dp"
+        android:layout_width="220dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="344dp"
+        android:background="@drawable/custon_input"
+        android:drawableStart="@drawable/ic_lock"
+        android:drawablePadding="12dp"
         android:ems="10"
-        android:inputType="textPassword"
+        android:text="Digite sua senha"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.527"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        />
-
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="100dp"
-        android:layout_marginTop="248dp"
-        android:text="Login"
-        android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
         android:id="@+id/etLoginNome"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="220dp"
+        android:layout_height="55dp"
+        android:background="@drawable/custon_input"
+        android:drawableStart="@drawable/ic_person"
+        android:drawablePadding="12dp"
         android:ems="10"
         android:inputType="textPersonName"
+        android:text="Digite seu login"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <TextView
-        android:id="@+id/textView2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="104dp"
-        android:layout_marginTop="356dp"
-        android:text="Senha"
-        android:textStyle="bold"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.479" />
 
     <Button
         android:id="@+id/bLoginEntrar"
@@ -79,9 +63,9 @@
         android:id="@+id/imageView"
         android:layout_width="182dp"
         android:layout_height="170dp"
-        android:layout_marginTop="64dp"
+        android:layout_marginTop="60dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.524"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/fitware_logo_1" />
