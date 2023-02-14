@@ -58,7 +58,7 @@ public class LoginActivity extends AppCompatActivity {
                             Toast.makeText(informacoesApp, "certooooo", Toast.LENGTH_SHORT).show();
                         }
                     });
-                } else if(resultadoConexao == false){
+                } else{
                     runOnUiThread(new Runnable() {
                         @Override
                         public void run() {
