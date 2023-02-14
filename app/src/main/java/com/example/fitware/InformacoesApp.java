@@ -14,12 +14,11 @@ public class InformacoesApp extends Application {
     public ObjectInput in;
 
     private Usuario usuarioLogado;
-
-    @Override
-    public void onCreate() {
-        super.onCreate();
-
-    }
+//    @Override
+//    public void onCreate() {
+//        super.onCreate();
+//
+//    }
 
     public  Usuario getUsuarioLogado(){ return  usuarioLogado; }
     public void setUsuarioLogado(Usuario usuarioLogado) { this.usuarioLogado = usuarioLogado; }

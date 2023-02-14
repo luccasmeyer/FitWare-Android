@@ -13,6 +13,10 @@ import modelDominio.Usuario;
 public class ConexaoSocketController {
     InformacoesApp informacoesApp;
 
+    public ConexaoSocketController(InformacoesApp informacoesApp) {
+        this.informacoesApp = informacoesApp;
+    }
+
     public boolean criaConexao() {
         boolean resultado;
         try {

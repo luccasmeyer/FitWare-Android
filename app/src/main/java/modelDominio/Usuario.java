@@ -44,6 +44,11 @@ public class Usuario implements Serializable {
         this.nome = nome;
     }
 
+    public Usuario(String nome, String senha) {
+        this.nome = nome;
+        this.senha = senha;
+    }
+
     public static long getSerialVersionUID() {
         return serialVersionUID;
     }
