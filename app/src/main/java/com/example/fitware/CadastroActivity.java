@@ -17,7 +17,6 @@ import androidx.navigation.ui.NavigationUI;
 import com.example.fitware.databinding.ActivityCadastroBinding;
 
 public class CadastroActivity extends AppCompatActivity {
-    Button bteste;
     private AppBarConfiguration appBarConfiguration;
     private ActivityCadastroBinding binding;
 
@@ -25,7 +24,7 @@ public class CadastroActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_cadastro);
-        bteste = findViewById(R.id.bteste);
+
 
     }
 }

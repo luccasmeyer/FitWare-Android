@@ -17,7 +17,7 @@ import modelDominio.Usuario;
 public class LoginActivity extends AppCompatActivity {
 
     Button bEntrarLogin, bCancelarLogin, bCadastrarLogin;
-    EditText etLoginUsuario, etLoginSenha;
+    EditText edNomeLogin, edSenhaLogin;
 
     Usuario usuario;
     String msgRecebida;
@@ -31,6 +31,9 @@ public class LoginActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
         bCadastrarLogin = findViewById(R.id.bCadastrarLogin);
+        bCancelarLogin = findViewById(R.id.bCadastrarLogin);
+        edNomeLogin = findViewById(R.id.edNomeLogin);
+        edSenhaLogin= findViewById(R.id.edSenhaLogin);
 
         bCadastrarLogin.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -38,7 +41,6 @@ public class LoginActivity extends AppCompatActivity {
                 TelaCadastro();
             }
         });
-
 
         informacoesApp = (InformacoesApp) getApplicationContext();
         Toast.makeText(informacoesApp, "entrou na activity", Toast.LENGTH_SHORT).show();
@@ -73,11 +75,18 @@ public class LoginActivity extends AppCompatActivity {
             }
         });
         thread.start();
+
+        bCancelarLogin.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                limpaCampos();
+            }
+        });
     }
 
     public void limpaCampos() {
-        etLoginUsuario.setText("");
-        etLoginSenha.setText("");
+        edNomeLogin.setText("");
+        edSenhaLogin.setText("");
     }
 
     public void TelaCadastro(){
