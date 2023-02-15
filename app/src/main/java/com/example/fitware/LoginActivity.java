@@ -16,7 +16,7 @@ import modelDominio.Usuario;
 
 public class LoginActivity extends AppCompatActivity {
 
-    Button bLoginEntrar, bLoginCancelar;
+    Button bEntrarLogin, bCancelarLogin, bCadastrarLogin;
     EditText etLoginUsuario, etLoginSenha;
 
     Usuario usuario;
@@ -30,12 +30,15 @@ public class LoginActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
-//        etLoginUsuario = findViewById(R.id.etLoginUsuario);
-//        etLoginSenha = findViewById(R.id.etLoginSenha);
-//        bLoginEntrar = findViewById(R.id.bLoginEntrar);
-//        bLoginCancelar = findViewById(R.id.bLoginCancelar);
-//            Toolbar toolbar = findViewById(R.id.toolbar);
-////            setSupportActionBar(toolbar);
+        bCadastrarLogin = findViewById(R.id.bCadastrarLogin);
+
+        bCadastrarLogin.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                TelaCadastro();
+            }
+        });
+
 
         informacoesApp = (InformacoesApp) getApplicationContext();
         Toast.makeText(informacoesApp, "entrou na activity", Toast.LENGTH_SHORT).show();
@@ -70,63 +73,16 @@ public class LoginActivity extends AppCompatActivity {
             }
         });
         thread.start();
-
-//        bLoginEntrar.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-//                if (!etLoginUsuario.getText().toString().equals("")) {
-//                    if (!etLoginSenha.getText().toString().equals("")) {
-//                        String nomeUsuario = etLoginUsuario.getText().toString();
-//                        String senha = etLoginSenha.getText().toString();
-//
-//                        usuario = new Usuario(nomeUsuario, senha);
-//
-//                        Thread thread1 = new Thread(new Runnable() {
-//                            @Override
-//                            public void run() {
-//                                ConexaoSocketController conexaoSocket = new ConexaoSocketController(informacoesApp);
-//                                usuario = conexaoSocket.autenticaUsuario(usuario);
-//
-//                                if (usuario != null) {
-//                                    informacoesApp.setUsuarioLogado(usuario);
-//
-//                                    Intent it = new Intent(LoginActivity.this, LoginActivity.class);
-//                                    startActivity(it);
-//                                } else {
-//                                    runOnUiThread(new Runnable() {
-//                                        @Override
-//                                        public void run() {
-//                                            Toast.makeText(informacoesApp, "ATENÇÃO: Usuário e senha não conferem!", Toast.LENGTH_SHORT).show();
-//                                            limpaCampos();
-//                                        }
-//                                    });
-//                                }
-//
-//                            }
-//                        });
-//                        thread1.start();
-//                    } else {
-//                        etLoginSenha.setError("Informe a senha!");
-//                        etLoginSenha.requestFocus();
-//                    }
-//                } else {
-//                    etLoginUsuario.setError("Informe o usuário!");
-//                    etLoginUsuario.requestFocus();
-//                }
-//            }
-//        });
-
-//        bLoginCancelar.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-//                limpaCampos();
-//            }
-//        });
     }
 
     public void limpaCampos() {
         etLoginUsuario.setText("");
         etLoginSenha.setText("");
+    }
+
+    public void TelaCadastro(){
+        Intent it = new Intent(LoginActivity.this, CadastroActivity.class);
+        startActivity(it);
     }
 }
 
