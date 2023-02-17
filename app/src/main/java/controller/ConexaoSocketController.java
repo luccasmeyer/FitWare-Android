@@ -1,6 +1,9 @@
 package controller;
 
+import android.util.Log;
+
 import com.example.fitware.InformacoesApp;
+import com.example.fitware.LoginActivity;
 
 import java.io.IOException;
 import java.io.ObjectInput;
@@ -33,12 +36,14 @@ public class ConexaoSocketController {
         return resultado;
     }
 
-    public Usuario autenticaUsuario(Usuario usuario) {
+    public Usuario EfetuarLogin(Usuario usuario) {
         Usuario usuarioLogado = null;
         try {
-            informacoesApp.out.writeObject("autenticaUsuario");
-            String msgRecebida = (String) informacoesApp.in.readObject();
-            if (msgRecebida.equals("Ok")) {
+            informacoesApp.out.writeObject("EfetuarLogin");
+            String msg = (String) informacoesApp.in.readObject();
+            Log.i("alguma merda dentro", usuario.toString() );
+            if (msg.equals("ok")) {
+                Log.i("alguma merda dentro2", msg );
                 informacoesApp.out.writeObject(usuario);
                 usuarioLogado = (Usuario) informacoesApp.in.readObject();
 

@@ -2,8 +2,12 @@ package modelDominio;
 
 import java.io.Serializable;
 
+/**
+ *
+ * @author aluno
+ */
 public class Usuario implements Serializable {
-    private static final long serialVersionUID = 321L;
+    private static final long serialVersionUID = 123L;
 
     private int codUsuario;
     private String nome;
@@ -11,8 +15,32 @@ public class Usuario implements Serializable {
     private String senha;
     private int foco;
     private String cref;
-    private int tipo;
 
+    public Usuario(int codUsuario, String nome, String email, String senha, int foco, String cref) {
+        this.codUsuario = codUsuario;
+        this.nome = nome;
+        this.email = email;
+        this.senha = senha;
+        this.foco = foco;
+        this.cref = cref;
+    }
+
+    public Usuario(String nome, String senha) {
+        this.nome = nome;
+        this.senha = senha;
+    }
+
+    public Usuario(int codUsuario) {
+        this.codUsuario = codUsuario;
+    }
+
+    public Usuario(String nome, String email, String senha, int foco, String cref) {
+        this.nome = nome;
+        this.email = email;
+        this.senha = senha;
+        this.foco = foco;
+        this.cref = cref;
+    }
 
     public Usuario(int codUsuario, String nome, String email, String senha, String cref) {
         this.codUsuario = codUsuario;
@@ -35,18 +63,17 @@ public class Usuario implements Serializable {
         this.senha = senha;
         this.foco = foco;
     }
-    public Usuario(int codUsuario){
-        this.codUsuario = codUsuario;
+
+    public Usuario(String nome, String email, String senha, int foco) {
+        this.nome = nome;
+        this.email = email;
+        this.senha = senha;
+        this.foco = foco;
     }
 
     public Usuario(int codUsuario, String nome) {
         this.codUsuario = codUsuario;
         this.nome = nome;
-    }
-
-    public Usuario(String nome, String senha) {
-        this.nome = nome;
-        this.senha = senha;
     }
 
     public static long getSerialVersionUID() {
@@ -108,4 +135,3 @@ public class Usuario implements Serializable {
 
 
 }
-
