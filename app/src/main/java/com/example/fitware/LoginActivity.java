@@ -2,8 +2,11 @@ package com.example.fitware;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.text.method.PasswordTransformationMethod;
 import android.view.View;
 import android.widget.Button;
+import android.widget.CheckBox;
+import android.widget.CompoundButton;
 import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -22,6 +25,7 @@ public class LoginActivity extends AppCompatActivity {
     TextView tvCadastro;
     Usuario usuario;
     String msgRecebida;
+    CheckBox cMSenhaLogin;
 
     InformacoesApp informacoesApp;
 
@@ -36,6 +40,7 @@ public class LoginActivity extends AppCompatActivity {
         edNomeLogin = findViewById(R.id.edNomeLogin);
         edSenhaLogin= findViewById(R.id.edSenhaLogin);
         tvCadastro = findViewById(R.id.tvCadastro);
+        cMSenhaLogin = findViewById(R.id.cMSenhaLogin);
 
         informacoesApp = (InformacoesApp) getApplicationContext();
         Thread thread = new Thread(new Runnable() {
@@ -44,7 +49,7 @@ public class LoginActivity extends AppCompatActivity {
                 runOnUiThread(new Runnable() {
                     @Override
                     public void run() {
-                        Toast.makeText(informacoesApp, "entrou na thread", Toast.LENGTH_SHORT).show();
+
                     }
                 });
                 ConexaoSocketController conexaoSocket = new ConexaoSocketController(informacoesApp);
@@ -68,7 +73,7 @@ public class LoginActivity extends AppCompatActivity {
                             @Override
                             public void run() {
                                 ConexaoSocketController conexaoSocket = new ConexaoSocketController(informacoesApp);
-                                 Usuario usuarioLogado = conexaoSocket.EfetuarLogin(usuario);
+                                Usuario usuarioLogado = conexaoSocket.EfetuarLogin(usuario);
 
                                 if (usuario != null) {
                                     informacoesApp.setUsuarioLogado(usuario);
@@ -111,6 +116,18 @@ public class LoginActivity extends AppCompatActivity {
                 TelaCadastro();
             }
         });
+
+        cMSenhaLogin.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+            @Override
+            public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
+                if (b) {
+                    edSenhaLogin.setTransformationMethod(null);
+                } else {
+                    edSenhaLogin.setTransformationMethod(new PasswordTransformationMethod());
+                }
+            }
+        });
+
     }
 
 

@@ -2,10 +2,7 @@ package modelDominio;
 
 import java.io.Serializable;
 
-/**
- *
- * @author aluno
- */
+
 public class Usuario implements Serializable {
     private static final long serialVersionUID = 123L;
 
@@ -55,6 +52,7 @@ public class Usuario implements Serializable {
         this.email = email;
         this.senha = senha;
     }
+
 
     public Usuario(int codUsuario, String nome, String email, String senha, int foco) {
         this.codUsuario = codUsuario;

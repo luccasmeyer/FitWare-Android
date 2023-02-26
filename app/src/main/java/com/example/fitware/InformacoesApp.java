@@ -26,8 +26,9 @@ public class InformacoesApp extends Application {
 
         return usuarioLogado;
     }
-
     public void setUsuarioLogado(Usuario usuarioLogado) {
+
         this.usuarioLogado = usuarioLogado;
     }
+
 }

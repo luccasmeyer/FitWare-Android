@@ -11,6 +11,7 @@ import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 import java.net.Socket;
 
+import modelDominio.Comum;
 import modelDominio.Usuario;
 
 public class ConexaoSocketController {
@@ -57,5 +58,21 @@ public class ConexaoSocketController {
         return  usuarioLogado;
     }
 
+    public String UserInserir(Usuario usuario){
+        String msg ="";
+        try {
+            informacoesApp.out.writeObject("UserInserir");
+            msg = (String) informacoesApp.in.readObject();
+            if (msg.equals("ok")){
+                informacoesApp.out.writeObject(usuario);
+                msg = (String) informacoesApp.in.readObject();
+            }
+        } catch (IOException ioe){
+            ioe.printStackTrace();
+        }catch (ClassNotFoundException classe){
+            classe.printStackTrace();
+        }
+        return msg;
+    }
 
 }
