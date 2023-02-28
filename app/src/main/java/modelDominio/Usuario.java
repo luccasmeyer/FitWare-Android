@@ -1,8 +1,12 @@
 package modelDominio;
 
 import java.io.Serializable;
+import java.util.ArrayList;
 
-
+/**
+ *
+ * @author aluno
+ */
 public class Usuario implements Serializable {
     private static final long serialVersionUID = 123L;
 
@@ -12,6 +16,28 @@ public class Usuario implements Serializable {
     private String senha;
     private int foco;
     private String cref;
+    private ArrayList<Exercicio> listaExerciciosUsuario;
+
+    public Usuario(String nome, String email, String senha, int foco, String cref, ArrayList<Exercicio> listaExerciciosUsuario) {
+        this.nome = nome;
+        this.email = email;
+        this.senha = senha;
+        this.foco = foco;
+        this.cref = cref;
+        this.listaExerciciosUsuario = listaExerciciosUsuario;
+    }
+
+    public Usuario(int codUsuario, String nome, String email, String senha, int foco, String cref, ArrayList<Exercicio> listaExerciciosUsuario) {
+        this.codUsuario = codUsuario;
+        this.nome = nome;
+        this.email = email;
+        this.senha = senha;
+        this.foco = foco;
+        this.cref = cref;
+        this.listaExerciciosUsuario = listaExerciciosUsuario;
+    }
+
+
 
     public Usuario(int codUsuario, String nome, String email, String senha, int foco, String cref) {
         this.codUsuario = codUsuario;
@@ -53,7 +79,6 @@ public class Usuario implements Serializable {
         this.senha = senha;
     }
 
-
     public Usuario(int codUsuario, String nome, String email, String senha, int foco) {
         this.codUsuario = codUsuario;
         this.nome = nome;
@@ -67,6 +92,12 @@ public class Usuario implements Serializable {
         this.email = email;
         this.senha = senha;
         this.foco = foco;
+    }
+
+    public Usuario(int codUsuario, String nome, String email) {
+        this.codUsuario = codUsuario;
+        this.nome = nome;
+        this.email = email;
     }
 
     public Usuario(int codUsuario, String nome) {

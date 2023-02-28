@@ -23,7 +23,7 @@ public class CadastroActivity extends AppCompatActivity {
 
     Usuario usuario;
     Button bCancelarCadastro, bCadastrarCadastro;
-//    Spinner spinner;
+    Spinner spinner;
     EditText edNomeCadastro, edEmailCadastro, edSenhaCadastro;
 
 
@@ -53,10 +53,10 @@ public class CadastroActivity extends AppCompatActivity {
                                String nomeComum = edNomeCadastro.getText().toString();
                                String emailComum = edEmailCadastro.getText().toString();
                                String senhaComum = edSenhaCadastro.getText().toString();
-
+                               int sppinerSelecionado = 0;
 
                                 usuario = new Usuario(nomeComum, emailComum, senhaComum);
-
+                                sppinerSelecionado = spinner.getSelectedItemPosition();
                                 Thread thread2 = new Thread(new Runnable() {
                                     @Override
                                     public void run() {
@@ -102,20 +102,20 @@ public class CadastroActivity extends AppCompatActivity {
         });
 
 
-//        String[] listaspinner = getResources().getStringArray(R.array.listaspinner);
-//        spinner.setAdapter(new ArrayAdapter<String>(this, androidx.appcompat.R.layout.support_simple_spinner_dropdown_item, listaspinner));
-//
-//        bCadastrarCadastro.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View view) {
-//                int spinnerItem = spinner.getSelectedItemPosition();
-//                if (spinnerItem != 0){
-//                    if (spinnerItem == 1){
-//
-//                    }
-//                }
-//            }
-//        });
+        String[] listaspinner = getResources().getStringArray(R.array.listaspinner);
+        spinner.setAdapter(new ArrayAdapter<String>(this, androidx.appcompat.R.layout.support_simple_spinner_dropdown_item, listaspinner));
+
+        bCadastrarCadastro.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                int spinnerItem = spinner.getSelectedItemPosition();
+                if (spinnerItem != 0){
+                    if (spinnerItem == 1){
+
+                    }
+                }
+            }
+        });
 
 
 
