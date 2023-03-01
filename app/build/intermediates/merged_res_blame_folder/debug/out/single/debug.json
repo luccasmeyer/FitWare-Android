@@ -1,0 +1,194 @@
+[
+    {
+        "merged": "C:\\Users\\magal\\.gradle\\daemon\\7.3.3\\com.example.fitware.app-merged_res-41:\\drawable_background_spinner.xml.flat",
+        "source": "C:\\Users\\magal\\.gradle\\daemon\\7.3.3\\com.example.fitware.app-main-43:\\drawable\\background_spinner.xml"
+    },
+    {
+        "merged": "C:\\Users\\magal\\.gradle\\daemon\\7.3.3\\com.example.fitware.app-merged_res-41:\\drawable_custon_input.xml.flat",
+        "source": "C:\\Users\\magal\\.gradle\\daemon\\7.3.3\\com.example.fitware.app-main-43:\\drawable\\custon_input.xml"
+    },
+    {
+        "merged": "C:\\Users\\magal\\.gradle\\daemon\\7.3.3\\com.example.fitware.app-merged_res-41:\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\magal\\.gradle\\daemon\\7.3.3\\com.example.fitware.app-main-43:\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\magal\\.gradle\\daemon\\7.3.3\\com.example.fitware.app-merged_res-41:\\drawable_ic_person.xml.flat",
+        "source": "C:\\Users\\magal\\.gradle\\daemon\\7.3.3\\com.example.fitware.app-main-43:\\drawable\\ic_person.xml"
+    },
+    {
+        "merged": "C:\\Users\\magal\\.gradle\\daemon\\7.3.3\\com.example.fitware.app-merged_res-41:\\mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\magal\\.gradle\\daemon\\7.3.3\\com.example.fitware.app-main-43:\\mipmap-xxxhdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\magal\\.gradle\\daemon\\7.3.3\\com.example.fitware.app-merged_res-41:\\drawable_ic_person_focused.xml.flat",
+        "source": "C:\\Users\\magal\\.gradle\\daemon\\7.3.3\\com.example.fitware.app-main-43:\\drawable\\ic_person_focused.xml"
+    },
+    {
+        "merged": "C:\\Users\\magal\\.gradle\\daemon\\7.3.3\\com.example.fitware.app-merged_res-41:\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\magal\\.gradle\\daemon\\7.3.3\\com.example.fitware.app-main-43:\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\magal\\.gradle\\daemon\\7.3.3\\com.example.fitware.app-merged_res-41:\\mipmap-mdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\magal\\.gradle\\daemon\\7.3.3\\com.example.fitware.app-main-43:\\mipmap-mdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\magal\\.gradle\\daemon\\7.3.3\\com.example.fitware.app-merged_res-41:\\mipmap-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\magal\\.gradle\\daemon\\7.3.3\\com.example.fitware.app-main-43:\\mipmap-xhdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\magal\\.gradle\\daemon\\7.3.3\\com.example.fitware.app-merged_res-41:\\layout_activity_login.xml.flat",
+        "source": "C:\\Users\\magal\\.gradle\\daemon\\7.3.3\\com.example.fitware.app-main-43:\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\magal\\.gradle\\daemon\\7.3.3\\com.example.fitware.app-merged_res-41:\\layout_fragment_second.xml.flat",
+        "source": "C:\\Users\\magal\\.gradle\\daemon\\7.3.3\\com.example.fitware.app-main-43:\\layout\\fragment_second.xml"
+    },
+    {
+        "merged": "C:\\Users\\magal\\.gradle\\daemon\\7.3.3\\com.example.fitware.app-merged_res-41:\\mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\magal\\.gradle\\daemon\\7.3.3\\com.example.fitware.app-main-43:\\mipmap-mdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\magal\\.gradle\\daemon\\7.3.3\\com.example.fitware.app-merged_res-41:\\drawable_ic_email_foucused.xml.flat",
+        "source": "C:\\Users\\magal\\.gradle\\daemon\\7.3.3\\com.example.fitware.app-main-43:\\drawable\\ic_email_foucused.xml"
+    },
+    {
+        "merged": "C:\\Users\\magal\\.gradle\\daemon\\7.3.3\\com.example.fitware.app-merged_res-41:\\layout_fragment_first.xml.flat",
+        "source": "C:\\Users\\magal\\.gradle\\daemon\\7.3.3\\com.example.fitware.app-main-43:\\layout\\fragment_first.xml"
+    },
+    {
+        "merged": "C:\\Users\\magal\\.gradle\\daemon\\7.3.3\\com.example.fitware.app-merged_res-41:\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\magal\\.gradle\\daemon\\7.3.3\\com.example.fitware.app-main-43:\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\magal\\.gradle\\daemon\\7.3.3\\com.example.fitware.app-merged_res-41:\\navigation_nav_graph5.xml.flat",
+        "source": "C:\\Users\\magal\\.gradle\\daemon\\7.3.3\\com.example.fitware.app-main-43:\\navigation\\nav_graph5.xml"
+    },
+    {
+        "merged": "C:\\Users\\magal\\.gradle\\daemon\\7.3.3\\com.example.fitware.app-merged_res-41:\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\magal\\.gradle\\daemon\\7.3.3\\com.example.fitware.app-main-43:\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\magal\\.gradle\\daemon\\7.3.3\\com.example.fitware.app-merged_res-41:\\drawable_degrade.xml.flat",
+        "source": "C:\\Users\\magal\\.gradle\\daemon\\7.3.3\\com.example.fitware.app-main-43:\\drawable\\degrade.xml"
+    },
+    {
+        "merged": "C:\\Users\\magal\\.gradle\\daemon\\7.3.3\\com.example.fitware.app-merged_res-41:\\drawable_fitware_logo_1.png.flat",
+        "source": "C:\\Users\\magal\\.gradle\\daemon\\7.3.3\\com.example.fitware.app-main-43:\\drawable\\fitware_logo_1.png"
+    },
+    {
+        "merged": "C:\\Users\\magal\\.gradle\\daemon\\7.3.3\\com.example.fitware.app-merged_res-41:\\drawable_custon_lock_icon.xml.flat",
+        "source": "C:\\Users\\magal\\.gradle\\daemon\\7.3.3\\com.example.fitware.app-main-43:\\drawable\\custon_lock_icon.xml"
+    },
+    {
+        "merged": "C:\\Users\\magal\\.gradle\\daemon\\7.3.3\\com.example.fitware.app-merged_res-41:\\drawable_ic_lock_focused.xml.flat",
+        "source": "C:\\Users\\magal\\.gradle\\daemon\\7.3.3\\com.example.fitware.app-main-43:\\drawable\\ic_lock_focused.xml"
+    },
+    {
+        "merged": "C:\\Users\\magal\\.gradle\\daemon\\7.3.3\\com.example.fitware.app-merged_res-41:\\navigation_nav_graph4.xml.flat",
+        "source": "C:\\Users\\magal\\.gradle\\daemon\\7.3.3\\com.example.fitware.app-main-43:\\navigation\\nav_graph4.xml"
+    },
+    {
+        "merged": "C:\\Users\\magal\\.gradle\\daemon\\7.3.3\\com.example.fitware.app-merged_res-41:\\drawable_ic_email.xml.flat",
+        "source": "C:\\Users\\magal\\.gradle\\daemon\\7.3.3\\com.example.fitware.app-main-43:\\drawable\\ic_email.xml"
+    },
+    {
+        "merged": "C:\\Users\\magal\\.gradle\\daemon\\7.3.3\\com.example.fitware.app-merged_res-41:\\layout_activity_cadastro.xml.flat",
+        "source": "C:\\Users\\magal\\.gradle\\daemon\\7.3.3\\com.example.fitware.app-main-43:\\layout\\activity_cadastro.xml"
+    },
+    {
+        "merged": "C:\\Users\\magal\\.gradle\\daemon\\7.3.3\\com.example.fitware.app-merged_res-41:\\layout_content_cadastro.xml.flat",
+        "source": "C:\\Users\\magal\\.gradle\\daemon\\7.3.3\\com.example.fitware.app-main-43:\\layout\\content_cadastro.xml"
+    },
+    {
+        "merged": "C:\\Users\\magal\\.gradle\\daemon\\7.3.3\\com.example.fitware.app-merged_res-41:\\mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\magal\\.gradle\\daemon\\7.3.3\\com.example.fitware.app-main-43:\\mipmap-xxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\magal\\.gradle\\daemon\\7.3.3\\com.example.fitware.app-merged_res-41:\\drawable_ic_spinner_down.xml.flat",
+        "source": "C:\\Users\\magal\\.gradle\\daemon\\7.3.3\\com.example.fitware.app-main-43:\\drawable\\ic_spinner_down.xml"
+    },
+    {
+        "merged": "C:\\Users\\magal\\.gradle\\daemon\\7.3.3\\com.example.fitware.app-merged_res-41:\\navigation_nav_graph.xml.flat",
+        "source": "C:\\Users\\magal\\.gradle\\daemon\\7.3.3\\com.example.fitware.app-main-43:\\navigation\\nav_graph.xml"
+    },
+    {
+        "merged": "C:\\Users\\magal\\.gradle\\daemon\\7.3.3\\com.example.fitware.app-merged_res-41:\\mipmap-hdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\magal\\.gradle\\daemon\\7.3.3\\com.example.fitware.app-main-43:\\mipmap-hdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\magal\\.gradle\\daemon\\7.3.3\\com.example.fitware.app-merged_res-41:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\magal\\.gradle\\daemon\\7.3.3\\com.example.fitware.app-main-43:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\magal\\.gradle\\daemon\\7.3.3\\com.example.fitware.app-merged_res-41:\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\magal\\.gradle\\daemon\\7.3.3\\com.example.fitware.app-main-43:\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\magal\\.gradle\\daemon\\7.3.3\\com.example.fitware.app-merged_res-41:\\mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\magal\\.gradle\\daemon\\7.3.3\\com.example.fitware.app-main-43:\\mipmap-xhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\magal\\.gradle\\daemon\\7.3.3\\com.example.fitware.app-merged_res-41:\\drawable_fitware_logo_2.png.flat",
+        "source": "C:\\Users\\magal\\.gradle\\daemon\\7.3.3\\com.example.fitware.app-main-43:\\drawable\\fitware_logo_2.png"
+    },
+    {
+        "merged": "C:\\Users\\magal\\.gradle\\daemon\\7.3.3\\com.example.fitware.app-merged_res-41:\\drawable_fundologin3.png.flat",
+        "source": "C:\\Users\\magal\\.gradle\\daemon\\7.3.3\\com.example.fitware.app-main-43:\\drawable\\fundologin3.png"
+    },
+    {
+        "merged": "C:\\Users\\magal\\.gradle\\daemon\\7.3.3\\com.example.fitware.app-merged_res-41:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\magal\\.gradle\\daemon\\7.3.3\\com.example.fitware.app-main-43:\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\magal\\.gradle\\daemon\\7.3.3\\com.example.fitware.app-merged_res-41:\\drawable_ic_lock.xml.flat",
+        "source": "C:\\Users\\magal\\.gradle\\daemon\\7.3.3\\com.example.fitware.app-main-43:\\drawable\\ic_lock.xml"
+    },
+    {
+        "merged": "C:\\Users\\magal\\.gradle\\daemon\\7.3.3\\com.example.fitware.app-merged_res-41:\\drawable_ic_custon_email.xml.flat",
+        "source": "C:\\Users\\magal\\.gradle\\daemon\\7.3.3\\com.example.fitware.app-main-43:\\drawable\\ic_custon_email.xml"
+    },
+    {
+        "merged": "C:\\Users\\magal\\.gradle\\daemon\\7.3.3\\com.example.fitware.app-merged_res-41:\\xml_backup_rules.xml.flat",
+        "source": "C:\\Users\\magal\\.gradle\\daemon\\7.3.3\\com.example.fitware.app-main-43:\\xml\\backup_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\magal\\.gradle\\daemon\\7.3.3\\com.example.fitware.app-merged_res-41:\\mipmap-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\magal\\.gradle\\daemon\\7.3.3\\com.example.fitware.app-main-43:\\mipmap-xxhdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\magal\\.gradle\\daemon\\7.3.3\\com.example.fitware.app-merged_res-41:\\drawable_container_components.xml.flat",
+        "source": "C:\\Users\\magal\\.gradle\\daemon\\7.3.3\\com.example.fitware.app-main-43:\\drawable\\container_components.xml"
+    },
+    {
+        "merged": "C:\\Users\\magal\\.gradle\\daemon\\7.3.3\\com.example.fitware.app-merged_res-41:\\navigation_nav_graph3.xml.flat",
+        "source": "C:\\Users\\magal\\.gradle\\daemon\\7.3.3\\com.example.fitware.app-main-43:\\navigation\\nav_graph3.xml"
+    },
+    {
+        "merged": "C:\\Users\\magal\\.gradle\\daemon\\7.3.3\\com.example.fitware.app-merged_res-41:\\drawable_custon_person_icon.xml.flat",
+        "source": "C:\\Users\\magal\\.gradle\\daemon\\7.3.3\\com.example.fitware.app-main-43:\\drawable\\custon_person_icon.xml"
+    },
+    {
+        "merged": "com.example.fitware.app-merged_res-41:/layout_item_exercicio.xml.flat",
+        "source": "com.example.fitware.app-main-43:/layout/item_exercicio.xml"
+    },
+    {
+        "merged": "C:\\Users\\magal\\.gradle\\daemon\\7.3.3\\com.example.fitware.app-merged_res-41:\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\magal\\.gradle\\daemon\\7.3.3\\com.example.fitware.app-main-43:\\mipmap-xxxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\magal\\.gradle\\daemon\\7.3.3\\com.example.fitware.app-merged_res-41:\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\magal\\.gradle\\daemon\\7.3.3\\com.example.fitware.app-main-43:\\mipmap-hdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\magal\\.gradle\\daemon\\7.3.3\\com.example.fitware.app-merged_res-41:\\drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\magal\\.gradle\\daemon\\7.3.3\\com.example.fitware.app-main-43:\\drawable-v24\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\magal\\.gradle\\daemon\\7.3.3\\com.example.fitware.app-merged_res-41:\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\Users\\magal\\.gradle\\daemon\\7.3.3\\com.example.fitware.app-main-43:\\xml\\data_extraction_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\magal\\.gradle\\daemon\\7.3.3\\com.example.fitware.app-merged_res-41:\\layout_content_login.xml.flat",
+        "source": "C:\\Users\\magal\\.gradle\\daemon\\7.3.3\\com.example.fitware.app-main-43:\\layout\\content_login.xml"
+    }
+]

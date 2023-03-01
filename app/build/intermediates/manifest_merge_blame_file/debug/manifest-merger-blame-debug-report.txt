@@ -1,0 +1,123 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.fitware"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+8-->C:\Users\magal\Documents\GitHub\FitWare-Android\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->C:\Users\magal\Documents\GitHub\FitWare-Android\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\magal\Documents\GitHub\FitWare-Android\app\src\main\AndroidManifest.xml:6:5-67
+11-->C:\Users\magal\Documents\GitHub\FitWare-Android\app\src\main\AndroidManifest.xml:6:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->C:\Users\magal\Documents\GitHub\FitWare-Android\app\src\main\AndroidManifest.xml:7:5-79
+12-->C:\Users\magal\Documents\GitHub\FitWare-Android\app\src\main\AndroidManifest.xml:7:22-76
+13
+14    <permission
+14-->[androidx.core:core:1.9.0] C:\Users\magal\.gradle\caches\transforms-3\6572e896cf691f4b13ad10c561cb3105\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+15        android:name="com.example.fitware.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+15-->[androidx.core:core:1.9.0] C:\Users\magal\.gradle\caches\transforms-3\6572e896cf691f4b13ad10c561cb3105\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+16        android:protectionLevel="signature" />
+16-->[androidx.core:core:1.9.0] C:\Users\magal\.gradle\caches\transforms-3\6572e896cf691f4b13ad10c561cb3105\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+17
+18    <uses-permission android:name="com.example.fitware.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+18-->[androidx.core:core:1.9.0] C:\Users\magal\.gradle\caches\transforms-3\6572e896cf691f4b13ad10c561cb3105\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+18-->[androidx.core:core:1.9.0] C:\Users\magal\.gradle\caches\transforms-3\6572e896cf691f4b13ad10c561cb3105\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+19
+20    <application
+20-->C:\Users\magal\Documents\GitHub\FitWare-Android\app\src\main\AndroidManifest.xml:9:5-37:19
+21        android:name="com.example.fitware.InformacoesApp"
+21-->C:\Users\magal\Documents\GitHub\FitWare-Android\app\src\main\AndroidManifest.xml:10:9-39
+22        android:allowBackup="true"
+22-->C:\Users\magal\Documents\GitHub\FitWare-Android\app\src\main\AndroidManifest.xml:11:9-35
+23        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+23-->[androidx.core:core:1.9.0] C:\Users\magal\.gradle\caches\transforms-3\6572e896cf691f4b13ad10c561cb3105\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+24        android:dataExtractionRules="@xml/data_extraction_rules"
+24-->C:\Users\magal\Documents\GitHub\FitWare-Android\app\src\main\AndroidManifest.xml:12:9-65
+25        android:debuggable="true"
+26        android:extractNativeLibs="false"
+27        android:fullBackupContent="@xml/backup_rules"
+27-->C:\Users\magal\Documents\GitHub\FitWare-Android\app\src\main\AndroidManifest.xml:13:9-54
+28        android:icon="@mipmap/ic_launcher"
+28-->C:\Users\magal\Documents\GitHub\FitWare-Android\app\src\main\AndroidManifest.xml:14:9-43
+29        android:label="@string/app_name"
+29-->C:\Users\magal\Documents\GitHub\FitWare-Android\app\src\main\AndroidManifest.xml:15:9-41
+30        android:roundIcon="@mipmap/ic_launcher_round"
+30-->C:\Users\magal\Documents\GitHub\FitWare-Android\app\src\main\AndroidManifest.xml:16:9-54
+31        android:supportsRtl="true"
+31-->C:\Users\magal\Documents\GitHub\FitWare-Android\app\src\main\AndroidManifest.xml:17:9-35
+32        android:testOnly="true"
+33        android:theme="@style/Theme.FitWare" >
+33-->C:\Users\magal\Documents\GitHub\FitWare-Android\app\src\main\AndroidManifest.xml:18:9-45
+34        <activity
+34-->C:\Users\magal\Documents\GitHub\FitWare-Android\app\src\main\AndroidManifest.xml:20:9-24:64
+35            android:name="com.example.fitware.CadastroActivity"
+35-->C:\Users\magal\Documents\GitHub\FitWare-Android\app\src\main\AndroidManifest.xml:21:13-45
+36            android:exported="false"
+36-->C:\Users\magal\Documents\GitHub\FitWare-Android\app\src\main\AndroidManifest.xml:22:13-37
+37            android:label="@string/title_activity_cadastro"
+37-->C:\Users\magal\Documents\GitHub\FitWare-Android\app\src\main\AndroidManifest.xml:23:13-60
+38            android:theme="@style/Theme.FitWare.NoActionBar" />
+38-->C:\Users\magal\Documents\GitHub\FitWare-Android\app\src\main\AndroidManifest.xml:24:13-61
+39        <!-- <activity -->
+40        <!-- android:name=".MainActivity" -->
+41        <!-- android:exported="true"/> -->
+42        <activity
+42-->C:\Users\magal\Documents\GitHub\FitWare-Android\app\src\main\AndroidManifest.xml:28:9-36:20
+43            android:name="com.example.fitware.LoginActivity"
+43-->C:\Users\magal\Documents\GitHub\FitWare-Android\app\src\main\AndroidManifest.xml:29:13-42
+44            android:exported="true" >
+44-->C:\Users\magal\Documents\GitHub\FitWare-Android\app\src\main\AndroidManifest.xml:30:13-36
+45            <intent-filter>
+45-->C:\Users\magal\Documents\GitHub\FitWare-Android\app\src\main\AndroidManifest.xml:31:13-35:29
+46                <action android:name="android.intent.action.MAIN" />
+46-->C:\Users\magal\Documents\GitHub\FitWare-Android\app\src\main\AndroidManifest.xml:32:17-69
+46-->C:\Users\magal\Documents\GitHub\FitWare-Android\app\src\main\AndroidManifest.xml:32:25-66
+47
+48                <category android:name="android.intent.category.LAUNCHER" />
+48-->C:\Users\magal\Documents\GitHub\FitWare-Android\app\src\main\AndroidManifest.xml:34:17-77
+48-->C:\Users\magal\Documents\GitHub\FitWare-Android\app\src\main\AndroidManifest.xml:34:27-74
+49            </intent-filter>
+50        </activity>
+51
+52        <provider
+52-->[androidx.emoji2:emoji2:1.2.0] C:\Users\magal\.gradle\caches\transforms-3\9f99c19470d8bf18ee15270d078c3173\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+53            android:name="androidx.startup.InitializationProvider"
+53-->[androidx.emoji2:emoji2:1.2.0] C:\Users\magal\.gradle\caches\transforms-3\9f99c19470d8bf18ee15270d078c3173\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+54            android:authorities="com.example.fitware.androidx-startup"
+54-->[androidx.emoji2:emoji2:1.2.0] C:\Users\magal\.gradle\caches\transforms-3\9f99c19470d8bf18ee15270d078c3173\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+55            android:exported="false" >
+55-->[androidx.emoji2:emoji2:1.2.0] C:\Users\magal\.gradle\caches\transforms-3\9f99c19470d8bf18ee15270d078c3173\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+56            <meta-data
+56-->[androidx.emoji2:emoji2:1.2.0] C:\Users\magal\.gradle\caches\transforms-3\9f99c19470d8bf18ee15270d078c3173\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+57                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+57-->[androidx.emoji2:emoji2:1.2.0] C:\Users\magal\.gradle\caches\transforms-3\9f99c19470d8bf18ee15270d078c3173\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+58                android:value="androidx.startup" />
+58-->[androidx.emoji2:emoji2:1.2.0] C:\Users\magal\.gradle\caches\transforms-3\9f99c19470d8bf18ee15270d078c3173\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+59            <meta-data
+59-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\magal\.gradle\caches\transforms-3\a68586d9ac6fc4872d4884a947d1c1d5\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+60                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+60-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\magal\.gradle\caches\transforms-3\a68586d9ac6fc4872d4884a947d1c1d5\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+61                android:value="androidx.startup" />
+61-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\magal\.gradle\caches\transforms-3\a68586d9ac6fc4872d4884a947d1c1d5\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+62        </provider>
+63
+64        <uses-library
+64-->[androidx.window:window:1.0.0] C:\Users\magal\.gradle\caches\transforms-3\44eb76c63a430958185cfd53aa9f79f1\transformed\window-1.0.0\AndroidManifest.xml:25:9-27:40
+65            android:name="androidx.window.extensions"
+65-->[androidx.window:window:1.0.0] C:\Users\magal\.gradle\caches\transforms-3\44eb76c63a430958185cfd53aa9f79f1\transformed\window-1.0.0\AndroidManifest.xml:26:13-54
+66            android:required="false" />
+66-->[androidx.window:window:1.0.0] C:\Users\magal\.gradle\caches\transforms-3\44eb76c63a430958185cfd53aa9f79f1\transformed\window-1.0.0\AndroidManifest.xml:27:13-37
+67        <uses-library
+67-->[androidx.window:window:1.0.0] C:\Users\magal\.gradle\caches\transforms-3\44eb76c63a430958185cfd53aa9f79f1\transformed\window-1.0.0\AndroidManifest.xml:28:9-30:40
+68            android:name="androidx.window.sidecar"
+68-->[androidx.window:window:1.0.0] C:\Users\magal\.gradle\caches\transforms-3\44eb76c63a430958185cfd53aa9f79f1\transformed\window-1.0.0\AndroidManifest.xml:29:13-51
+69            android:required="false" />
+69-->[androidx.window:window:1.0.0] C:\Users\magal\.gradle\caches\transforms-3\44eb76c63a430958185cfd53aa9f79f1\transformed\window-1.0.0\AndroidManifest.xml:30:13-37
+70    </application>
+71
+72</manifest>
